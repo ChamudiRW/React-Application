@@ -6,13 +6,14 @@ const Card1 = () => {
     <div className="card">
       <img src={CardImage} alt="Card Image" className="card-image" />
 
-      <h2 className="card-heading">Package</h2>
+      <h2 className="card-heading">Beach Packages</h2>
       <p className="card-description">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet
         risus velit, eget facilisis ex sodales at.
       </p>
       <div className="card-price">
-        Price: <span className="card-price-amount">300$</span> per person
+        Price: <span className="card-price-amount">$800 to $5000</span> per
+        person
       </div>
       <button className="card-button">See More</button>
     </div>

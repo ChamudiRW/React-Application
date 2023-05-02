@@ -1,0 +1,22 @@
+.about-container {
+  background-color: #eee;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+.heading {
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 54px;
+  color: #ee697d;
+}
+.h3tag {
+  font-size: 20px;
+  color: #666;
+  font-family: 'Alegreya Sans', sans-serif;
+  justify-content: center;
+  text-align: center;
+}

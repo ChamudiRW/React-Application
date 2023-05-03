@@ -6,6 +6,7 @@ import Cards from './components/Cards/cards';
 import Aboutus from './components/aboutus';
 import How from './components/howitworks';
 import Gallery from './components/gallery';
+import Ratings from './components/ratings';
 
 function App() {
   return (
@@ -20,7 +21,9 @@ function App() {
         <br />
         <How />
         <Gallery />
-        <br /> <br />
+        <br />
+        <Ratings />
+        <br />
         <br /> <br /> <br /> <br />
         <br /> <br />
       </div>

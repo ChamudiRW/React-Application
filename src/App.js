@@ -1,6 +1,6 @@
 import './styles/App.css';
 import Navbar from './components/nav';
-import Hero from './components/heropage';
+import Hero from './components/hero';
 import Footer from './components/footer';
 import Cards from './components/Cards/cards';
 import Aboutus from './components/aboutus';
@@ -11,7 +11,9 @@ import Ratings from './components/ratings';
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <header>
+        <Navbar />
+      </header>
       <div className="content">
         <Hero />
         <br />

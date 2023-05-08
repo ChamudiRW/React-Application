@@ -40,3 +40,18 @@
   height: 250px;
   object-fit: cover;
 }
+@media screen and (max-width: 700px) {
+  .landscape {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+  }
+  .portrait {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+  }
+  .landscape-group {
+    display: none;
+  }
+}

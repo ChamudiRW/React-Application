@@ -1,3 +1,4 @@
+import Hero from './components/hero';
 import Navbar from './components/navbar';
 import './styles/App.css';
 
@@ -7,7 +8,9 @@ function App() {
       <header>
         <Navbar />
       </header>
-      <div className="content"></div>
+      <div className="content">
+        <Hero />
+      </div>
       <div className="footer"></div>
     </div>
   );

@@ -1,6 +1,7 @@
 navbar {
   display: flex;
   flex-direction: column;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.05);
 }
 .contacts {
   background-color: var(--shade-color);
@@ -27,7 +28,6 @@ navbar {
   justify-content: space-between;
   align-items: center;
   height: 95px;
-  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.05);
 }
 .links {
   list-style-type: none;
@@ -39,7 +39,6 @@ navbar {
 .contact-button {
   font-size: 20px;
   font-weight: 700;
-  padding: 10px 30px;
   max-height: 44px;
 }
 @media screen and (max-width: 700px) {

@@ -1,5 +1,6 @@
 import Aboutus from './components/home/aboutus';
 import Cards from './components/home/cards';
+import Gallery from './components/home/gallery';
 import Hero from './components/home/hero';
 import How from './components/home/how';
 import Navbar from './components/navbar';
@@ -16,6 +17,7 @@ function App() {
         <Cards />
         <Aboutus />
         <How />
+        <Gallery />
       </div>
       <div className="footer"></div>
     </div>

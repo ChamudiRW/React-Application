@@ -30,7 +30,6 @@ navbar {
   height: 70px;
 }
 .links {
-  list-style-type: none;
   gap: 93px;
   display: flex;
 }

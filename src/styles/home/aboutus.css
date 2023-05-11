@@ -1,0 +1,23 @@
+.about-container {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about-heading {
+  color: var(--primary);
+  margin-bottom: 50px;
+}
+.about-paragraph {
+  max-width: 1000px;
+  width: 100%;
+  text-align: center;
+}
+@media screen and (max-width: 900px) {
+  .about-paragraph {
+    max-width: 390px;
+    width: 100%;
+  }
+  .about-heading {
+    margin-bottom: 22px;
+  }
+}

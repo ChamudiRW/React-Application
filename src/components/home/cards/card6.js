@@ -1,5 +1,5 @@
 import '../../../styles/home/cards.css';
-import CardImage from '../../../assets/card-image6.png';
+import CardImage from '../../../assets/cards/card-image6.png';
 
 function Card6() {
   return (

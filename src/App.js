@@ -1,10 +1,5 @@
 import Footer from './components/footer';
-import Aboutus from './components/home/aboutus';
-import Cards from './components/home/cards';
-import Gallery from './components/home/gallery';
-import Hero from './components/home/hero';
-import How from './components/home/how';
-import Rate from './components/home/rate';
+import Home from './components/home';
 import Navbar from './components/navbar';
 import './styles/App.css';
 
@@ -15,12 +10,7 @@ function App() {
         <Navbar />
       </header>
       <div className="content">
-        <Hero />
-        <Cards />
-        <Aboutus />
-        <How />
-        <Gallery />
-        <Rate />
+        <Home />
       </div>
       <div className="footer">
         <Footer />

@@ -10,6 +10,12 @@
   flex-direction: row;
   gap: 75px;
 }
+.item-p {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  align-items: center;
+}
 @media screen and (max-width: 900px) {
   .how-items {
     flex-direction: column;
@@ -18,5 +24,9 @@
   .item {
     width: 70px;
     height: 70px;
+  }
+  .item-p {
+    flex-direction: row;
+    gap: 17px;
   }
 }

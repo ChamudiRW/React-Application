@@ -1,0 +1,32 @@
+.ratings {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  gap: 21px;
+}
+.rate {
+  padding-right: 60px;
+  width: 300px;
+  height: 165px;
+}
+.scroll {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+@media screen and (max-width: 900px) {
+  .ratings {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 21px;
+  }
+  .rate {
+    padding-right: 60px;
+    width: 300px;
+    height: 165px;
+  }
+  .scroll {
+    width: 510px;
+  }
+}

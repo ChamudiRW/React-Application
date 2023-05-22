@@ -1,0 +1,17 @@
+.hero-container {
+  background-image: url('../assets/hero.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttonhero {
+  background-color: #ee697d;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 18px;
+  border: none;
+  padding: 12px 24px;
+  color: #fff;
+}

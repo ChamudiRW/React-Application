@@ -1,0 +1,46 @@
+.gal {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.img1,
+.img4 {
+  width: 312px;
+  height: 437px;
+}
+.img3,
+.img2 {
+  width: 482px;
+  height: 205px;
+}
+.gallery-container {
+  flex-direction: column;
+}
+.landscape {
+  width: 482px;
+  height: 437px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+@media screen and (max-width: 900px) {
+  .img1,
+  .img2,
+  .img3,
+  .img4 {
+    width: 320px;
+    height: 270px;
+  }
+  .landscape {
+    width: auto;
+    height: auto;
+    flex-direction: auto;
+    justify-content: auto;
+    gap: 20px;
+  }
+  .gal {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}

@@ -1,0 +1,10 @@
+.cover {
+  max-height: 300px;
+  width: 100%;
+}
+.hero-container {
+  position: relative;
+}
+.hero-button {
+  position: absolute;
+}
